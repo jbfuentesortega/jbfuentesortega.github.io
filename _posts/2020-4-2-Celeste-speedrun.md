@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Celeste: Farewell y aprender de los speedrunners
+title: Celeste Farewell y aprender de los speedrunners
 date: 2020-04-2
 tags:
     juegos
