@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: asielorz
   instagram:
-  linkedin:
+  linkedin: asierelorz
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:
@@ -48,6 +48,8 @@ url: http://asielorz.github.io
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
+
+tag_page: '/tags/'
 
 #
 # !! You don't need to change any of the configuration flags below !!
