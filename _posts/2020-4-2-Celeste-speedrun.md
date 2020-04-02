@@ -7,7 +7,7 @@ tags:
 ---
 <p style='text-align: justify;'>Hace poco ha salido _Celeste: Farewell_, un DLC a Celeste que añade un nuevo mundo al final del juego, después del volcán, pensado para la gente que ya se ha pasado todo el juego. Tras unos cuantos niveles en los que se juega con una nueva mecánica, un paracaídas al que nos podemos agarrar para caer más despacio, se presenta la verdadera mecánica de la que va este mundo, el _wavedashing_.</p>
 
-[Wavedashing](https://thumbs.gfycat.com/OrderlyMajesticFox-size_restricted.gif)
+![Wavedashing](https://thumbs.gfycat.com/OrderlyMajesticFox-size_restricted.gif)
 
 <p style='text-align: justify;'>El _wavedashing_ es un salto especial que consiste en usar el dash contra el suelo en diagonal y saltar en el momento en el que se toca el suelo para salir impulsado hacia delante a mucha velocidad, a la vez que se recarga el dash. Lo más destacable de este truco es que no es una mecánica nueva introducida para el DLC, sino que es una interacción natural del sistema de movimiento del personaje. Madeline puede usar el dash. Si Madeline toca el suelo recarga el dash. Si Madeline tiene velocidad a la vez que salta su salto es más grande. Combina estas tres y obtienes el _wavedashing_. ¿Cual es la diferencia, pues? Esta vez se explica al jugador explícitamente que esta interacción existe, y es obligatoria de usar para poder pasar los niveles.</p>
 
