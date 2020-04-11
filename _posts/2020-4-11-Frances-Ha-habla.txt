@@ -13,6 +13,4 @@ tags:
 
 <p style='text-align: justify;'>Por último, no se puede hablar sobre el habla en Frances Ha sin hablar de la escena de la cena, en la que podemos ver a Frances completamente fuera de lugar cuando se habla sobre París, donde nunca ha estado, haciendo eso de decir cualquier cosa por no quedarse excluida de la conversación. También la vemos ponerse a hablar, meter la pata, darse cuenta de que se está metiendo en un berenjenal y recoger cable, y por último un fantastico discurso de filosofía barata de alguien que lleva un par de copas de más. A todo esto le da vida la magistral interpretación de Greta Gerwig, también coguionista de la cinta, que hace un trabajo magnífico dando vida a todas estas pequeñas situaciones que te hacen gritar "es exactamente así" y dan pie a ese sanísimo ejercicio que es reírse de uno mismo.</p>
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=x-b2Y8ldxZk&ab_channel=AnthonyWareham">
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x-b2Y8ldxZk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
