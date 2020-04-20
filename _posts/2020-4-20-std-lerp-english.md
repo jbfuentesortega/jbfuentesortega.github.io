@@ -81,7 +81,7 @@ std_lerp(float, float, float):
         ret
 ```
 
-While our lerp only does a subtraction, a multiplication and a sum, we can see how `std::lerp` has a series of conditional jumps and four branches that it can end in. This increase in cost should make us wonder how useful this additional guarantee that it gives us really is, and base our decision on this.
+While our lerp only does a subtraction, a multiplication and a sum, we can see how `std::lerp` has a series of conditional jumps and four branches that it can end in. After some measurements, depending on the ability of the CPU to predict the branches, `std::lerp` is 10% to 40% more expensive. This increase in cost should make us wonder how useful this additional guarantee that it gives us really is, and base our decision on this.
 
 One of the most common situations in which linear interpolation is used is in skeleton and particle system animations. In these, lerp is the most common operation, and is calculated potentially several thousand times per frame. Also, it is generally operated with values ​​known in advance, decided by hand by a designer, an animator or a special effects artist, so it is known that these values ​​will never be so large that they are not representable by the type of data being used. In these cases, the decision to use std :: lerp is wrong, as an additional cost is being introduced into the code without this reporting any benefits in return.
 
