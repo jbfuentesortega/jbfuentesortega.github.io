@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'std::lerp and why you might not want to use it'
-date: 2020-04-20
+date: 2020-04-19
 tags:
     c++
 	english
