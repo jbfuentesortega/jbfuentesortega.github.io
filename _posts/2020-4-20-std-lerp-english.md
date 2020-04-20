@@ -3,7 +3,8 @@ layout: post
 title: 'std::lerp and why you might not want to use it'
 date: 2020-04-20
 tags:
-    c++
+  c++
+  english
 ---
 C++20 introduces `std::lerp`, a function that, given three numbers a, b, and t, calculates the linear interpolation between a and b at t. It includes overloads for all number type combinations in the language and does what it has to do. What's more, it does it very well. It does it so well that for all t between 0 and 1 the result is **always** correct.
 
