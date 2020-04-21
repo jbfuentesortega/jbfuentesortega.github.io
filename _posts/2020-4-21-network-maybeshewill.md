@@ -7,7 +7,7 @@ tags:
 ---
 <p style='text-align: justify;'>Network (Sidney Lumet, 1976) narra la historia de una productora de televisión, interpretada por Faye Dunaway, que logra ascender en el mundo del audiovisual rescatando a un acabado presentador de informativos y convirtiéndolo en una especie de profeta loco. La película tiene algunos de los discursos más icónicos de la historia del cine que le valieron al actor que interpretaba al excéntrico presentador, Peter Finch, un bien merecido oscar. Es en el primero de estos discursos en el que me quiero centrar.</p>
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/MRuS3dxKK9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/MRuS3dxKK9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 <p style='text-align: justify;'>Esta escena está muy bien rodada, y es un ejemplo perfecto de cómo en el cine la imagen y el sonido pueden ir en direcciones opuestas. Este recurso se suele usar para decir que lo que está sucediendo en realidad es diferente de lo que se ve a simple vista, y Hitchcock era un maestro en su uso. Conviene también recordar que cuando sucede esto manda la imagen.
 
@@ -21,7 +21,7 @@ Esta escena no es un discurso incendiario contra el statu quo. No habla de la cr
 
 Bien ahora hablemos de Maybeshewill, y de su canción _Not for want of trying_. Para contexto, Maybeshewill es un grupo británico de rock instrumental, que suele usar fragmentos de películas en sus canciones. En Not for want of trying ponen música a este monólogo de Network.</p>
 
-<iframe width="1280" height="753" src="https://www.youtube.com/embed/L-778EerveU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="329" src="https://www.youtube.com/embed/L-778EerveU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 <p style='text-align: justify;'>La primera diferencia no es algo que Maybeshewill añade sino que quita. No hay imagen. Adiós a las cámaras, a los productores y al profeta loco. Adiós a los encuadres que le quitan importancia al presentador, a los que destacan sus defectos o a los que lo hacen parecer un peón dentro de un juego más grande. Adiós a la cara de satisfacción de Faye Dunaway viendo cómo su plan va sobre ruedas. Sólo queda el discurso, lo que oímos. Como hemos analizado antes, los elementos que en la escena juegan en contra de la credibilidad y la importancia del presentador son todos visuales y, al desaparecer estos, el mismo discurso funciona de forma completamente diferente. No hay nada diciéndonos que lo que estamos escuchando está mal.
 
