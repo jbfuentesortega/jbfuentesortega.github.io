@@ -31,7 +31,7 @@ En resumen, el sistema nos queda algo así.
 - Una función que devuelve memoria dinámica tiene que haber reservado esa memoria con el allocator en lo alto de la pila al entrar a la función.
 - Pueden existir allocators que no pueden liberar memoria. En estos casos intentar liberar el bloque de memoria no hace nada y es responsabilidad del programador asegurarse de que esa memoria es liberada correctamente por otros medios.
 
-Segunda parte: La interfaz de las funciones allocate y deallocate
+**Segunda parte: La interfaz de las funciones allocate y deallocate**
 
 Las interfaces de malloc y free son algo mejorables.
 
@@ -48,11 +48,11 @@ void * aligned_alloc(size_t alignment, size_t size);
 
 <p style='text-align: justify;'>Otro gran problema es que free no coge el tamaño del bloque. Para poder hacer esto, malloc escribe el tamaño al principio del bloque, antes del pointer que se le da al usuario. Sin embargo, en la mayoría de los casos (por no decir todos) el tamaño del bloque a liberar es conocido por el programa en el momento en el que se llama a free, de forma que esta información podría pasarse como parámetro en lugar de escribirla. Esto ahorraría memoria y además simplificaría al usuario el escribir sus propios allocators, ya que casi cualquier allocator que emule la interfaz de free va a estar obligado a repetir este patrón de escribir el tamaño antes del bloque.</p>
 
-<p style='text-align: justify;'>Por último, hay muchos sistemas de reserva de memoria que funcionan por bloques de tamaño fijo. Se divide un gran trozo de memoria en bloques iguales de tamaño fijo, y cuando el usuario pide memoria se le da el bloque más pequeño que sea de un tamaño igual o mayor a la memoria solicitada. Esto significa que hay allocators que pueden devolver memoria de más, y puede ser útil hacer saber esta información al usuario. Por ejemplo, supongamos que tenemos un <code>vector&lt;int&gt;</code> en el que se hace reserve(13). El vector pedirá un bloque de memoria de 13x4=52 bytes. Sin embargo, supongamos que en nuestro allocator el bloque más pequeño que puede albergar 52 bytes es de 64. Si podemos comunicar esta información de vuelta al vector, este puede establecer su capacidad en 16 en vez de en 13, ganando 3 ints más gratis, ya que ya estaban ahí de todas formas.</p>
+<p style='text-align: justify;'>Por último, hay muchos sistemas de reserva de memoria que funcionan por bloques de tamaño fijo. Se divide un gran trozo de memoria en bloques iguales de tamaño fijo, y cuando el usuario pide memoria se le da el bloque más pequeño que sea de un tamaño igual o mayor a la memoria solicitada. Esto significa que hay allocators que pueden devolver memoria de más, y puede ser útil hacer saber esta información al usuario. Por ejemplo, supongamos que tenemos un <code>vector&lt;int&gt;</code> en el que se hace <code>reserve(13)</code>. El vector pedirá un bloque de memoria de 13x4=52 bytes. Sin embargo, supongamos que en nuestro allocator el bloque más pequeño que puede albergar 52 bytes es de 64. Si podemos comunicar esta información de vuelta al vector, este puede establecer su capacidad en 16 en vez de en 13, ganando 3 ints más gratis, ya que ya estaban ahí de todas formas.</p>
 
-Por lo tanto, la interfaz de las funciones de reservar y devolver memoria nos quedan así.
+<p style='text-align: justify;'>Por lo tanto, la interfaz de las funciones de reservar y devolver memoria nos quedan así.</p>
 
 ```cpp
 pair<void *, size_t> allocate(size_t size, size_t alignment);
-void free(void * ptr, size_t size, size_t alignment);
+void deallocate(void * ptr, size_t size, size_t alignment);
 ```
