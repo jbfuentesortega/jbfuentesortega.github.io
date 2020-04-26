@@ -35,16 +35,14 @@ En resumen, el sistema nos queda algo así.
 
 Las interfaces de malloc y free son algo mejorables.
 
-```cpp
+`cpp
 void * malloc(size_t size);
 void free(void * ptr);
-```
+`
 
 <p style='text-align: justify;'>En primer lugar, malloc no sabe cuáles son los requerimientos de alineamiento de la memoria a reservar. En la mayoría de sistemas, la memoria estará alineada al menos a 16 bytes, lo cual es suficiente para la mayoría de los tipos, pero debería ser posible especificar este número en cualquier caso. Es cierto que C11 introduce aligned_alloc que resuelve este problema.</p>
 
-```cpp
-void * aligned_alloc(size_t alignment, size_t size);
-```
+`void * aligned_alloc(size_t alignment, size_t size);`
 
 <p style='text-align: justify;'>Otro gran problema es que free no coge el tamaño del bloque. Para poder hacer esto, malloc escribe el tamaño al principio del bloque, antes del pointer que se le da al usuario. Sin embargo, en la mayoría de los casos (por no decir todos) el tamaño del bloque a liberar es conocido por el programa en el momento en el que se llama a free, de forma que esta información podría pasarse como parámetro en lugar de escribirla. Esto ahorraría memoria y además simplificaría al usuario el escribir sus propios allocators, ya que casi cualquier allocator que emule la interfaz de free va a estar obligado a repetir este patrón de escribir el tamaño antes del bloque.</p>
 
@@ -52,7 +50,5 @@ void * aligned_alloc(size_t alignment, size_t size);
 
 <p style='text-align: justify;'>Por lo tanto, la interfaz de las funciones de reservar y devolver memoria nos quedan así.</p>
 
-```cpp
 pair<void *, size_t> allocate(size_t size, size_t alignment);
 void deallocate(void * ptr, size_t size, size_t alignment);
-```
