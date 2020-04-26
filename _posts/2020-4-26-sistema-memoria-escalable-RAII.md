@@ -26,7 +26,7 @@ tags:
 En resumen, el sistema nos queda algo así.
 - Cada thread tiene una pila de allocators.
 - Para reservar memoria se usa el allocator en lo alto de la pila.
-- Cuando se reserva un bloque memoria, se escribe también al bloque la función que se tiene que usar para liberar esa memoria.
+- Cuando se reserva un bloque de memoria, se escribe también al bloque la función que se tiene que usar para liberar esa memoria.
 - Al salir de una función la pila de allocators tiene que estar en el mismo estado que cuando se entró.
 - Una función que devuelve memoria dinámica tiene que haber reservado esa memoria con el allocator en lo alto de la pila al entrar a la función.
 - Pueden existir allocators que no pueden liberar memoria. En estos casos intentar liberar el bloque de memoria no hace nada y es responsabilidad del programador asegurarse de que esa memoria es liberada correctamente por otros medios.
