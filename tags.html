@@ -17,7 +17,7 @@ title: Tag index
       {% for post in site.posts %}
         {% if post.tags contains tag %}
           <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }} ({{ post.date | date: "%Y-%m-%d" }})</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }} ({{ post.date | date: "%d-%m-%Y" }})</a>
             {% for post_tag in post.tags | sort %}
               {% unless post_tag == tag %}
                 <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ post_tag | slugify: 'pretty' | uri_escape }}" class="post-tag">{{ post_tag | slugify: 'pretty' | escape }}</a>
