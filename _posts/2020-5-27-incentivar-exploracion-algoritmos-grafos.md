@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sobre incentivar la exploración y algoritmos para recorrer grafos 
+title: Sobre incentivar la exploración en juegos de mundo abierto y algoritmos para recorrer grafos 
 date: 2020-06-17
 tags:
   juegos
