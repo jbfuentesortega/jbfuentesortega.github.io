@@ -12,7 +12,7 @@ tags:
 <p style='text-align: justify;'>No es muy difícil ver cómo se relaciona esto con la exploración en los juegos de mundo abierto. Podemos imaginar el mundo como un grafo donde cada zona es un nodo. Al explorar en un juego de mundo abierto recorremos el grafo en algún orden, por lo general guiados por nuestra curiosidad y nuestro estilo de juego. Hay jugadores que metódicamente exploran cada zona y evitan fervorosamente avanzar en el juego hasta haber agotado todo lo que esa zona tiene para ofrecerles, mientras que otros prefieren seguir una pista, una historia o un recorrido hasta el final, para luego volver atrás y hacer lo mismo con el resto de ramas que parten de la zona inicial. </p>
 
 ![Grafo de zonas de Dark Souls](https://raw.githubusercontent.com/asielorz/blog/master/images/grafo-dark-souls-gmtk.png)
-Ejemplo: Grafo de las zonas de Dark Souls. Fuente: https://www.youtube.com/watch?v=QhWdBhc3Wjc
+Ejemplo: Grafo de las zonas de Dark Souls. Fuente: [https://www.youtube.com/watch?v=QhWdBhc3Wjc](https://www.youtube.com/watch?v=QhWdBhc3Wjc)
 
 <p style='text-align: justify;'>Por poner un ejemplo, en The Legend of Zelda: Breath of the Wild un jugador puede decidir ir directamente a por las bestias divinas y Ganon, y una vez que ha terminado la historia ya tranquilamente explorar el mundo, o al contrario puede conforme avanza por el juego explorar minuciosamente cada zona, completando cada altar (y, Dios no lo quiera, encontrando cada Korok) y dejar la pelea contra Ganon justo para el final. Esto es posible gracias al diseño totalmente abierto del mundo de Breath of the Wild, que permite ser explorado en cualquier orden sin que esto suponga un cambio en la experiencia de ningún tipo.</p>
 
