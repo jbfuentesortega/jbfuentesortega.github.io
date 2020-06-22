@@ -1,6 +1,6 @@
 ---
 layout: post
-title: *Por un puñado de dólares* y la construcción del duelo final
+title: <i>Por un puñado de dólares</i> y la construcción del duelo final
 date: 2020-06-22
 tags:
   cine
