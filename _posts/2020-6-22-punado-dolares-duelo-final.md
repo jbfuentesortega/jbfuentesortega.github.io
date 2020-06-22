@@ -5,7 +5,7 @@ date: 2020-06-22
 tags:
   cine
 ---
-<p style='text-align: justify;'>De entre toda la filmografía de Leone, me destaca mucho la forma en la que en <i>Por un puñado de dólares</i> todo lo que sucede en la película conduce a y aumenta la expectativa del duelo final. Esto se irá perdiendo en sus películas posteriores, más largas y con tramas más complejas, hasta el punto de completamente prescindir del duelo final en <i>Agáchate, maldito</i>. Por eso quiero hablar de la estructura perfecta de <i>Por un puñado de dólares</i> y su apoteósico duelo final.</p>
+<p style='text-align: justify;'>De entre toda la filmografía de Leone, destaca mucho la forma en la que en <i>Por un puñado de dólares</i> todo lo que sucede en la película conduce a y aumenta la expectativa del duelo final. Esto se irá perdiendo en sus películas posteriores, más largas y con tramas más complejas, hasta el punto de completamente prescindir del duelo final en <i>Agáchate, maldito</i>. Por eso quiero hablar de la estructura perfecta de <i>Por un puñado de dólares</i> y su apoteósico duelo final.</p>
 
 <p style='text-align: justify;'>Este texto hace un análisis casi escena a escena de <i>Por un puñado de dólares</i>, de Sergio Leone, estudiando el propósito de esa escena de cara a la construcción del duelo final. Huelga decir que te cuenta el final. Si no has visto <i>Por un puñado de dólares</i>, hazte ese favor.</p>
 
