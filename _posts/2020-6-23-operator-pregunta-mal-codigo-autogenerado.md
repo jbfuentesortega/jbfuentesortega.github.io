@@ -1,6 +1,6 @@
 ---
 layout: post
-title: `operator ?` y el mal código autogenerado
+title: 'operator ? y el mal código autogenerado'
 date: 2020-06-23
 tags:
   programación
