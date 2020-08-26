@@ -5,7 +5,7 @@ date: 2020-08-25
 tags:
   juegos
 ---
-<p style='text-align: justify;'><i>The Witness</i> es un juego de puzles diseñado por Jonathan Blow, que tiene uno de los diseños de puzles más únicos y sorprendentes que he tenido la oportunidad de jugar, además de una visión autoral consistente y coherentemente transmitida mediante las mecánicas y el diseño de la obra. En este texto quiero poner por escrito un par de las cosas que más destacables me han parecido.</p>
+<p style='text-align: justify;'><i>The Witness</i> es un juego de puzles diseñado por Jonathan Blow, que tiene uno de los diseños de puzles más únicos y sorprendentes que he tenido la oportunidad de jugar, además de una visión autoral consistente y coherentemente transmitida mediante las mecánicas y el diseño de la obra. En este texto quiero poner por escrito un par de las cosas que me parecen más destacables.</p>
 
 <p style='text-align: justify;'>El juego hace especial hincapié en la comunicación no verbal. Todo en el juego se enseña a través de las propias mecánicas del juego, sin una sola palabra. Al principio, el jugador se encuentra en un túnel. Sólo puede ir hacia delante, y se encuentra con el primer panel del juego. </p>
 
