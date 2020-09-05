@@ -3,7 +3,7 @@ layout: post
 title: 'The Stanley parable, Firewatch, Florence: la interactividad sin desafío'
 date: 2020-09-05
 tags:
-  videojuego
+  juegos
 ---
 <p style='text-align: justify;'>El término <i>walking simulator</i>, antes de ser reapropiado con orgullo como el nombre de un género, fue un término despectivo que un sector de la crítica dio a unos juegos que desafiaron uno de los principios hasta entonces fundamentales del medio: la necesidad del desafío como eje vertebrador de la obra. En su origen, los walking simulators fueron vistos como poco interactivos o incluso no interactivos por un sector de los jugadores. De ahí el nombre: juegos que lo único que hacen es simular al jugador andando por un escenario. Sin embargo, los buenos walking simulators son esencialmente interactivos. No podrían ser si no fueran interactivos. La diferencia está en que lo son de formas distintas y con objetivos distintos al videojuego tradicional, y por eso se enfrentaron a esta incomprensión inicial. En este texto me gustaría argumentar por qué cuatro obras en concreto, que nos servirán como sinécdoque de un conjunto más amplio, no sólo no son menos interactivas que el videojuego tradicional, sino que necesitan ser interactivas y hacen un uso de su medio que es original y enormemente enriquecedor. Aunque es cierto que de las cuatro sólo dos son walking simulators propiamente dichos, las cuatro tienen en común la ausencia de desafío, que es lo que se criticó a este género.</p>
 
