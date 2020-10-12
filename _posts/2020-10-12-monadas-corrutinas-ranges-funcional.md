@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'De mónadas, corrutinas, <ranges> y programación funcional en C++'
+title: 'De mónadas, corrutinas, &amp;ranges&amp; y programación funcional en C++'
 date: 2020-10-12
 tags:
   programación
