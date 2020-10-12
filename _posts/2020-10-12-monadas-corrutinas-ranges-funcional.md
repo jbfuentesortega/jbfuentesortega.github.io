@@ -10,7 +10,7 @@ tags:
 
 <p style='text-align: justify;'>Sin embargo, es cierto que hay una serie de ventajas inherentes a la programación funcional a las que desde luego que no queremos rechazar. La ausencia de estado global y el escaso y controladísimo número de mutaciones al estado del programa hacen que probar que el código es correcto sea muchísimo más fácil. El estilo funcional permite aumentar muchísimo la porción del proyecto que podemos demostrar que es correcta de forma automatizada y por lo tanto ahorrar horas en probar a mano y buscar problemas. También hace del código muchas veces casi trivial de paralelizar. La programación funcional aboga por el estado global inmutable y por que casi toda la mutación suceda en estado local, mientras que huye de lo que Kevlin Henney llama cuadrante de la sincronización, en el que por desgracia vive mayormente la orientación a objetos.</p>
 
-![Marisol secuestrada](https://raw.githubusercontent.com/asielorz/blog/master/images/cuadrante-sincronizacion.png)
+![Cuadrante de la sincronización](https://raw.githubusercontent.com/asielorz/blog/master/images/cuadrante-sincronizacion.png)
 
 <p style='text-align: justify;'>C++20 introduce por fin en el lenguaje las corrutinas, una abstracción que permite escribir código asíncrono en un estilo imperativo, mientras simplifica hasta casi eliminarla la complejidad de las funciones asíncronas, que pasan a parecer casi funciones normales. Las corrutinas suponen una alternativa a la forma tradicional orientada a objetos de escribir código asíncrono, mediante el uso de callbacks, pero también a la interfaz monádica de <code>future</code> basada en encadenar funciones de continuación. En vez de eso permite escribir una única función aparentemente imperativa en la que sin embargo el compilador introducirá los cambios necesarios para poder suspender y retomar la ejecución conforme el estado del programa y de aquello a lo que se está esperando lo permita. El lenguaje se encarga de toda la interacción con el objeto de la corrutina, algo parecido a un <code>future</code>. Por si esto no fuera suficiente, resulta queexiste la posibilidad de usar la sintaxis de las corrutinas para simplificar mucho la forma de trabajar con tipos de error monádicos como <code>optional</code> o <code>expected</code>, haciendo que <code>co_await</code> signifique extraer el contenido, y si no lo hay devolver el error.</p>
 
@@ -20,8 +20,8 @@ tags:
 
 <p style='text-align: justify;'>La única limitación de lo discutido en este texto, al menos en el estado en el que C++ y las corrutinas se encuentran a día de hoy, es que es imposible hacerlo funcionar para la mónada de lista, pues <code>co_await</code> sólo devuelve un único <code>T</code>. C++20 permite trabajar con secuencias en un estilo funcional con la biblioteca <code>&lt;ranges&rt;</code>, más inspirada en un estilo funcional tradicional y por lo tanto más afectada por los problemas arriba mencionados. De momento es demasiado pronto para intentar predecir hacia dónde irá el trabajar con secuencias en C++. Lo que toca ahora es probar <code>ranges</code> y otras bibliotecas parecidas como las <code>pipes</code> de Jonathan Boccara, ver si son eficaces resolviendo problemas del mundo real una vez fuera del mágico mundo de las diapositivas y si son o no la forma en la que queremos escribir nuestro código. De momento, la solución parece un poco cruda, demasiado parecida a un intento de copiar Haskell. Habrá que ver qué más se nos ocurre en el futuro.</p>
 
-###Referencias:
+### Referencias:
 
-- El cuadrante de la sincronización, por Kevlin Henney https://www.youtube.com/watch?v=UJrmee7o68A&t=515s&ab_channel=ACCUConference
-- Uso de corrutinas para composición monádica https://github.com/toby-allsopp/coroutine_monad
-- Biblioteca pipes de Jonathan Boccara https://github.com/joboccara/pipes
+- El cuadrante de la sincronización, por Kevlin Henney <a href=https://www.youtube.com/watch?v=UJrmee7o68A&t=515s&ab_channel=ACCUConference>https://www.youtube.com/watch?v=UJrmee7o68A&t=515s&ab_channel=ACCUConference</a>
+- Uso de corrutinas para composición monádica <a href=https://github.com/toby-allsopp/coroutine_monad>https://github.com/toby-allsopp/coroutine_monad</a>
+- Biblioteca pipes de Jonathan Boccara <a href=https://github.com/joboccara/pipes>https://github.com/joboccara/pipes</a>
