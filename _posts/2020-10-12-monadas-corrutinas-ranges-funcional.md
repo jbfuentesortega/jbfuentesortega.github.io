@@ -22,6 +22,6 @@ tags:
 
 ### Referencias:
 
-- El cuadrante de la sincronización, por Kevlin Henney <a href=https://www.youtube.com/watch?v=UJrmee7o68A&t=515s&ab_channel=ACCUConference>https://www.youtube.com/watch?v=UJrmee7o68A&t=515s&ab_channel=ACCUConference</a>
-- Uso de corrutinas para composición monádica <a href=https://github.com/toby-allsopp/coroutine_monad>https://github.com/toby-allsopp/coroutine_monad</a>
-- Biblioteca pipes de Jonathan Boccara <a href=https://github.com/joboccara/pipes>https://github.com/joboccara/pipes</a>
+- El cuadrante de la sincronización, por Kevlin Henney [https://www.youtube.com/watch?v=UJrmee7o68A&t=515s&ab_channel=ACCUConference](https://www.youtube.com/watch?v=UJrmee7o68A&t=515s&ab_channel=ACCUConference)
+- Uso de corrutinas para composición monádica [https://github.com/toby-allsopp/coroutine_monad](https://github.com/toby-allsopp/coroutine_monad)
+- Biblioteca pipes de Jonathan Boccara [https://github.com/joboccara/pipes](https://github.com/joboccara/pipes)
