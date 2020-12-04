@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'El sistema de actividades de Play Station 5 hace que jugar a juegos de mundo abierto sea brutalmente eficiente y esto es distópico'
-date: 2020-12-01
+date: 2020-12-04
 tags:
 	juegos
 ---
