@@ -3,6 +3,7 @@ layout: post
 title: El scripting visual va lento
 date: 2020-05-27
 tags:
+  informática
   programación
 ---
 <p style='text-align: justify;'>Es scripting visual es importante. Si alguien aún sigue pensando que esto de programar con cajitas es para niños, sólo tiene que mirar al hecho de que tanto Unreal como Unity tienen sistemas de scripting visual, y es conocido que muchos motores privados incorporan estas técnicas también. El scripting visual es importante porque conforme más de nuestras herramientas se vuelven programables, más gente que no necesariamente tiene un trasfondo en ingeniaría del software tiene que ser capaz de programar para poder explotar a fondo estas herramientas. Que artistas y diseñadores sean capaces de programar puede reducir mucho los tiempos de iteración y por lo tanto acelerar mucho la velocidad de producción de un proyecto. Sin embargo, la forma tradicional de programar, el texto, puede ser innecesariamente difícil o incluso impenetrable para algunas de estas personas, que sin embargo al tener una mentalidad muy visual pueden entender esto de programar con cajitas mucho más fácilmente.</p>

@@ -3,6 +3,7 @@ layout: post
 title: 'operator ? y el mal código autogenerado'
 date: 2020-06-23
 tags:
+  informática
   programación
 ---
 <p style='text-align: justify;'>Contaba Kevlin Henney en una charla que revisando código de otra persona se encontró con una clase en la que para cada variable privada de la clase había un par de funciones get y set que leían y escribían la variable respectivamente, a pesar de que esto no tenía ningún sentido porque esas variables tenían que mantener una serie de invariantes que se podían romper si se les escribía valores arbitrarios. Al preguntarle al autor del código en cuestión por qué lo había hecho, este le contestaba que su editor de texto tenía una opción muy cómoda de autogenerar estas funciones, así que era algo que él ya hacía por defecto cada vez que añadía una variable a una clase. Henney aprovecha esta anécdota para reflexionar sobre la generación procedural de mal código y la forma en la que las herramientas que usamos dan forma a nuestra forma de pensar, no siempre para nuestro bien.</p>

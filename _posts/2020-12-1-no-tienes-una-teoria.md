@@ -3,6 +3,8 @@ layout: post
 title: 'No tienes una teoría, con suerte tienes una hipótesis'
 date: 2020-12-01
 tags:
+  lenguaje
+  sociedad
 ---
 <p style='text-align: justify;'>El método científico define una teoría como un sistema lógico-deductivo constituido por un conjunto de hipótesis comprobadas, un campo de aplicación (de lo que trata la teoría, el conjunto de cosas que explica) y algunas reglas que permitan extraer consecuencias de las hipótesis, siendo una hipótesis un enunciado no verificado, una conjetura científica que requiere una contrastación con la experiencia. Últimamente, es cada vez más frecuente encontrarse justamente con el significado contrario. Cada vez es más común ver a gente usar la palabra “teoría” para designar una idea que por observación creen que puede ser verdad pero para la que no tienen pruebas, es decir, una hipótesis. Por lo general me parece de muy mal gusto lo de ir corrigiendo a la gente al hablar por eso de que <a href="https://starkeycomics.com/2019/04/18/linguistic-prescriptivists-make-terrible-zoologists/">los prescriptivistas lingüísticos son muy malos zoólogos</a>, pero creo que este fallo en concreto puede ser peligroso en una época en la que posturas anticientíficas como el terraplanismo, el creacionismo o el geocentrismo parece que empiezan a coger fuerza.</p>
 

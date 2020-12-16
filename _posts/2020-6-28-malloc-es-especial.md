@@ -3,6 +3,7 @@ layout: post
 title: malloc es especial
 date: 2020-06-28
 tags:
+  informática
   programación
 ---
 <p style='text-align: justify;'>La programación funcional es un estilo de programación que modela los cálculos como la evaluación de expresiones, a diferencia de la programación imperativa, donde los cálculos suceden a través de la ejecución de instrucciones que mutan el estado del programa. Una función típica en un lenguaje funcional no es un conjunto de instrucciones que se ejecutan juntas, es decir, una subrutina, sino una asociación de un conjunto de valores a otro valor. Para esto es necesario que una función no mute sus parámetros y tampoco lea o escriba a estado mutable global, o interactúe con el exterior accediendo al sistema de archivos o a la red. Llamaremos a este tipo de cambios efectos secundarios, y a las funciones que no causan efectos secundarios funciones puras.</p>

@@ -3,6 +3,8 @@ layout: post
 title: '"Consumir contenido"'
 date: 2020-10-28
 tags:
+  lenguaje
+  sociedad
 ---
 <p style='text-align: justify;'>Si hay dos palabras que se han convertido en ubicuas últimamente, hasta el punto de que han pasado a ser parte de nuestro vocabulario más o menos habitual y las decimos sin pensar, son “consumir” y “contenido”. De repente, todo es contenido. Ya venía siendo común referirse a la gente que difunde su trabajo principalmente por internet, gente del mundo de YouTube o que hace podcasts como “creadores de contenido”, pero es que últimamente vengo oyendo referirse como “contenido” incluso a series, películas y videojuegos. Parece que el contenido va abarcando más y más, expandiéndose y absorbiendo cada aspecto de nuestro ocio como la nada de la historia interminable.</p>
 

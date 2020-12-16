@@ -3,6 +3,7 @@ layout: post
 title: Hacia un sistema de memoria escalable y compatible con RAII
 date: 2020-04-26
 tags:
+  informática
   programación
 ---
 <p style='text-align: justify;'>Reservar memoria, menuda movida. Es un problema tan difícil como importante, como se puede ver en el hecho de que la forma en la que se resuelve es un elemento bastante céntrico en el diseño de un lenguaje de programación, y hasta ahora se han dado muchas soluciones pero ninguna totalmente satisfactoria.</p>
