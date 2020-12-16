@@ -3,7 +3,7 @@ layout: post
 title: Sobre incentivar la exploración en juegos de mundo abierto y algoritmos para recorrer grafos 
 date: 2020-06-17
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'>Es una operación relativamente común en el campo de los grafos visitar cada nodo una vez, empezando por un nodo de origen y visitando recursivamente cada adyacente. Por lo general hay dos algoritmos usados para esto, la búsqueda en profundidad (<i>depth-first search</i>) y la búsqueda en anchura (<i>breadth-first search</i>), que se diferencian en si usan una pila o una cola para guardar los siguientes nodos a visitar. La búsqueda en profundidad prioriza llegar cuanto antes a los límites del grafo. Elige un camino y lo sigue hasta el final, y repite este proceso hasta haber visitado todos los nodos. La búsqueda en anchura prioriza visitar antes los nodos cercanos al origen. Cada vez que se visita un nodo, se visitarán todos los adyacentes a ese nodo antes de proceder con los adyacentes de estos.</p>
 

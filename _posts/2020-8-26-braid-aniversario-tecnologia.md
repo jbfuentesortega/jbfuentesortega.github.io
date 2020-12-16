@@ -3,7 +3,7 @@ layout: post
 title: 'Braid Anniversary Edition y la lógica perversa de la mejora tecnológica'
 date: 2020-08-26
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'>Me he cruzado recientemente por youtube con el anuncio de la edición de aniversario de <i>Braid</i>, para la que han vuelto a pintar a mano todas las texturas del juego con el fin de hacerlo más parecido a un cuadro, con detalles que parecen pinceladas de acuarela. La apariencia visual de algunas zonas ha sido rediseñada para hacerlas más únicas y también han retocado las animaciones para hacerlas más fluidas. Hay 9 píxeles por cada píxel en el juego original, afirman. También han mejorado el sonido y la música para potenciar la atmosfera del juego. Y es que el juego original es de 2008, estamos en 2020 y ahora las pantallas tienen más píxeles, supongo. En el vídeo ponen imágenes del juego original y la nueva versión una al lado de la otra y la diferencia se nota.</p>
 

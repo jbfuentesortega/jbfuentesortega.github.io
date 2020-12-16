@@ -3,7 +3,7 @@ layout: post
 title: 'The Stanley parable, Firewatch, Florence: la interactividad sin desafío'
 date: 2020-09-05
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'>El término <i>walking simulator</i>, antes de ser reapropiado con orgullo como el nombre de un género, fue un término despectivo que un sector de la crítica dio a unos juegos que desafiaron uno de los principios hasta entonces fundamentales del medio: la necesidad del desafío como eje vertebrador de la obra. En su origen, los walking simulators fueron vistos como poco interactivos o incluso no interactivos por un sector de los jugadores. De ahí el nombre: juegos que lo único que hacen es simular al jugador andando por un escenario. Sin embargo, los buenos walking simulators son esencialmente interactivos. No podrían ser si no fueran interactivos. La diferencia está en que lo son de formas distintas y con objetivos distintos al videojuego tradicional, y por eso se enfrentaron a esta incomprensión inicial.</p>
 

@@ -3,7 +3,7 @@ layout: post
 title: 'Sobre dar espadazos a cosas y otra vez Dark Souls'
 date: 2020-08-05
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'>Una cosa que me llama mucho la atención de <i>Bloodborne</i> es que de alguna manera su combate, a pesar de ser muchísimo más rápido y de no tener escudos, se siente en esencia parecido al de <i>Dark Souls</i>. Y llevo mucho tiempo intentando poner en palabras cuál es esa esencia de <i>Dark Souls</i>, que de alguna forma sobrevive a que le quiten los que en apariencia parecen ser sus elementos principales, pero que es tan raro de encontrar en otros juegos. La respuesta a la que finalmente he llegado es que, por lo general, en un juego de dar espadazos a cosas la acción más importante y que el jugador lleva a cabo más a menudo es reaccionar, mientras que en <i>Dark Souls</i> (y <i>Bloodborne</i>) es planificar.</p>
 

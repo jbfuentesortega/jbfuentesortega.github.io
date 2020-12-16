@@ -3,7 +3,7 @@ layout: post
 title: 'La belleza de no saber cómo funciona Pokémon'
 date: 2020-09-22
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'>He jugado mucho a <i>Pokémon</i>. De niño metí una cantidad obscena de horas al <i>Esmeralda</i> y al <i>Perla</i>, además de pasarme también el <i>Verde hoja</i> de un amigo y gran parte del <i>Blanco</i> con mi primo. Ya en la carrera descubrí el mundo de los juegos hechos por fans, de los que he jugado un puñado y a los que también he dedicado más horas de las que me gustaría admitir. Sobre todo en <i>Reborn</i>, donde mi equipo está entrenado con naturaleza y EVs óptimos. Jugué OU competitivo en sexta generación y llegué a alcanzar un ELO bastante respetable, aunque no fuera estelar, en mi mejor momento. Lo que vengo a decir es que tengo un conocimiento bastante profundo de los sistemas de <i>Pokémon</i>. Sé cómo el juego calcula sus números, sé cómo se diseñan pokémon y equipos óptimos, y sé cómo se producen y se entrenan éstos para que lleguen a maximizar sus números. He dedicado tiempo a investigar y aprender estos sistemas y a poner en práctica mi conocimiento de ellos.  Y ahora, después de tanto esfuerzo, voy a revelarme contra todo ello.</p>
 

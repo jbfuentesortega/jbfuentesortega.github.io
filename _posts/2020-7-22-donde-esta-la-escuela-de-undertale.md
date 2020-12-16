@@ -3,7 +3,7 @@ layout: post
 title: '¿Dónde está la escuela de Undertale?'
 date: 2020-07-22
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'>En 2015, después de que <i>Undertale</i> nos dejara a todos flipando con su estética retro, su música pegadiza, su sentido del humor y su impugnación de la violencia, la crítica se deshizo en afirmaciones de que esta obra extraña, hecha por un solo tipo y que salió del underground un poco de milagro, era el mejor videojuego de la historia y que cambiaría para siempre el rostro del videojuego como arte. Pues bien, han pasado cinco años y la influencia de <i>Undertale</i> ha sido más bien escasa. Apenas existen obras que se hayan basado en ella para expandir sus ideas y ahora mismo la vemos más como una isla, una rareza en medio de una marea que va a todas luces en otra dirección. Y uno no puede sino preguntarse qué narices ha pasado aquí.</p>
 

@@ -3,7 +3,7 @@ layout: post
 title: 'El sistema de actividades de Play Station 5 hace que jugar a juegos de mundo abierto sea brutalmente eficiente y esto es distópico'
 date: 2020-12-04
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'>Recientemente me ha llegado por el slack del trabajo <a href="https://www.vice.com/en/article/93wb8d/ps5s-activities-system-makes-playing-open-world-games-brutally-efficient">un artículo</a> sobre el sistema de actividades de Play Station 5. El redactor explica cómo el sistema, que lista todas las actividades disponibles en ese momento con su duración estimada y permite teletransportarse inmediatamente a ellas, cambió significativamente su forma de jugar a Spiderman, eliminando la planificación de rutas y reduciendo mucho la cantidad de tiempo invertida en moverse por la ciudad. Desde Sony argumentan que el objetivo de este sistema es reducir la fricción entre la inversión de tiempo necesaria para jugar a un juego de un solo jugador y la falta de tiempo debida a las vicisitudes del día a día de la vida adulta, dando a los jugadores una forma de saltar directamente a la acción y ofreciéndoles una estimación de las duraciones de las distintas actividades a su disposición. Con esto buscan que los jugadores no requieran de sesiones de juego largas para poder jugar a juegos de un solo jugador, sino hacer estos accesibles a gente que únicamente dispone de sesiones de juego cortas y alejadas en el tiempo. Aunque desde luego este es un buen propósito, es interesante preguntarse cómo este sistema cambiará a los juegos que se harán en el futuro, y si será para bien.</p>
 

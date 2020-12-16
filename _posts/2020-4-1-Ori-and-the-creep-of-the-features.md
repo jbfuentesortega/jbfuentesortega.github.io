@@ -3,7 +3,7 @@ layout: post
 title: Ori and the creep of the features
 date: 2020-04-1
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'><em>Ori and the blind forest</em> tiene uno de los mejores controles de jugador para un juego de plataformas 2D que se hayan hecho. Es simple, profundo y extremadamente satisfactorio. El juego está construido en torno a una mecánica a la que llama <em>bash</em>, que consiste en la habilidad de agarrarse durante el salto a enemigos o a elementos del nivel especialmente colocados para esto e impulsarse para saltar más lejos. El resto de mecánicas están diseñadas para interactuar con ello, como el doble salto, que se recarga cada vez que se usa el <em>bash</em> o la habilidad de planear que permite aguantar más en el aire para poder alcanzar ese apoyo que está un poco más lejos o, aún más interesante, dar tiempo a un enemigo a que cargue contra el jugador para apoyarse en él y salir impulsado hacia arriba. A todo esto el juego añade un mundo abierto que explorar con zonas secretas, un combate mediocre y un sistema de progresión y árbol de mejoras completamente innecesario que supongo que pretenderá justificar la exploración con coleccionables que desbloquean mejoras en este árbol.</p>
 

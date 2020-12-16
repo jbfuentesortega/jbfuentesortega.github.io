@@ -3,7 +3,7 @@ layout: post
 title: 'Sobre XCOM, fallar rápido y la frustración'
 date: 2020-09-15
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'>Se podría argumentar que <i>XCOM</i> es un roguelike. Es un juego por partidas con desafíos generados aleatoriamente en el que comienzas siempre con lo mismo, vas construyendo tu equipamiento con las decisiones que tomas según avanza la partida y los objetos aleatorios que el juego te concede y hay una condición de derrota que te hace volver a empezar desde el principio. Sin embargo, la mayoría de la gente no juega a <i>XCOM</i> como a un roguelike. La mayoría de la gente juega una sola partida, guarda compulsivamente antes de cada misión y en general antes de cada decisión peligrosa, y vuelve atrás ante cada error. Se juega más parecido a <i>Pokémon</i>, cuando uno guardaba antes del legendario de turno para asegurarse de capturarlo y reiniciaba todas las veces que hiciera falta hasta conseguirlo, que como <i>The binding of Isaac</i>, donde lo normal es lanzarte a cada nueva sala sin pensarlo dos veces, a lo que surja. La pregunta que me surge con esto es ¿por qué nos importa tan poco perder en <i>The binding of Isaac</i>, <i>Dead cells</i>, <i>Slay the spire</i>, <i>Enter the gungeon</i> o <i>Spelunky</i> pero guardamos compulsivamente a cada paso en <i>XCOM</i> y volvemos atrás a cada error?</p>
 

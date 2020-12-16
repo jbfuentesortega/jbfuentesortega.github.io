@@ -3,7 +3,7 @@ layout: post
 title: 'Modo fácil de Dark Souls y capitalismo. Relación, si la hubiere.'
 date: 2020-11-02
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'>Ante el relanzamiento para Play Station 5 de <i>Demon Souls</i> vuelve a surgir el eterno debate en torno a los juegos de Hidetaka Miyazaki de si deberían o no tener un modo fácil. Es ya la tercera vez (que yo recuerde) que veo el mismo tema siendo discutido, pues sucedió lo mismo con la salida de <i>Dark Souls 3</i> y <i>Sekiro</i>, y los argumentos y las posturas siguen siendo los mismos. Por eso, más interesante que el debate en sí, me parece la pregunta de por qué estamos discutiendo esto en primer lugar. ¿Qué es lo que lleva a toda esta gente a exigirle un modo fácil a unos desarrolladores que varias veces han declarado que no quieren ponerlo en su juego?</p>
 

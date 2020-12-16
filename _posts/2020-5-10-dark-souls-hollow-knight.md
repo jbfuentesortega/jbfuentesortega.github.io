@@ -3,7 +3,7 @@ layout: post
 title: La imperfección de las obras innovadoras o mi Dark Souls favorito es Hollow Knight
 date: 2020-05-10
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'>Es innegable la influencia de Dark Souls en el videojuego posterior, desde la miríada de clones que intentaron capitalizar el éxito del título hasta los juegos que realmente han entendido la obra, han aprendido de ella y lo han aplicado. Conceptos como el de lore, introducidos por este, son ya parte del lenguaje del videojuego. Dark Souls es ya uno de esos hitos del videojuego que marcan un antes y un después, como lo pudieron ser Super Mario Bros, Doom o Half Life.</p>
 

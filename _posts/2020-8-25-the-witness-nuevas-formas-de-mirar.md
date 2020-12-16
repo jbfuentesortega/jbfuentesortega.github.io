@@ -3,7 +3,7 @@ layout: post
 title: 'The Witness, nuevas formas de mirar'
 date: 2020-08-25
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'><i>The Witness</i> es un juego de puzles diseñado por Jonathan Blow, que tiene uno de los diseños de puzles más únicos y sorprendentes que he tenido la oportunidad de jugar, además de una visión autoral consistente y coherentemente transmitida mediante las mecánicas y el diseño de la obra. En este texto quiero poner por escrito un par de las cosas que me parecen más destacables.</p>
 

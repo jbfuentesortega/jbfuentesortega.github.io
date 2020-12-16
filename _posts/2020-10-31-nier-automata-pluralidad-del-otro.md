@@ -3,7 +3,7 @@ layout: post
 title: 'NieR: Automata, la pluralidad del otro'
 date: 2020-10-31
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'><i>NieR: Automata</i> comienza con una misión suicida en la que un grupo de androides se infiltran en una fábrica en la que las máquinas tienen guardada un arma peligrosa que debe ser destruida. Es una secuencia llena de acción y combates espectaculares, con momentos épicos y muertes dramáticas, pero sobre todo establece un marco de pensamiento inicial para el jugador. Androides buenos, máquinas malas. El juego lo hace claramente explícito mediante el personaje de 9S, que ayuda al jugador a lo largo de la misión y se encarga de recordarle que las máquinas no tienen sentimientos, tan sólo están programadas para seguir patrones simples. Y lo que vemos lo confirma. Todas las máquinas son enemigos, que al vernos ponen sus ojos en rojo y ejecutan ciclos simples de atacar y esperar como es común en cualquier enemigo de RPG. Tras esto, el juego nos da algo de contexto para lo que está sucediendo. Este juego sucede en una guerra entre humanos y aliens que se ha alargado durante siglos, en la que los humanos han sido expulsados de la Tierra y obligados a refugiarse en la Luna. Los humanos crearon a los androides para defenderse y los aliens a las máquinas. Nuestro deber como androides es combatir en la guerra y derrotar a las máquinas para que los humanos puedan volver a la tierra y recuperar la paz. Mediante esta primera misión y la cinemática explicativa que le sigue <i>NieR: Automata</i> logra establecer en el jugador un marco de pensamiento que será la base que luego dedicará el resto del juego a subvertir.</p>
 

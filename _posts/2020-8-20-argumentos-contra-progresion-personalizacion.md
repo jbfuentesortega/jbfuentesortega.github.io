@@ -3,7 +3,7 @@ layout: post
 title: Argumentos contra la progresión y la personalización en el videojuego
 date: 2020-08-20
 tags:
-  juegos
+  videojuego
 ---
 <p style='text-align: justify;'>Desde los tiempos de dragones y mazmorras, los jugadores han tenido interés en un personaje que crece a lo largo de la partida, tanto en nivel de poder como en personalización hacia un estilo de juego propio que desarrolla el jugador de acuerdo con sus gustos. Estos elementos en su origen más de nicho se han ido colando en el videojuego convencional y de un tiempo a esta parte hemos podido ver cómo la mayor parte de los lanzamientos triple A contienen elementos de progresión y personalización. Aunque esto en principio no tiene por qué ser negativo, al igual que no vengo a defender que este tipo de mecánicas, a las que la comunidad suele referirse como “elementos de RPG”, son inherentemente malas, sí que es cierto que tienen algunos problemas de diseño que me gustaría repasar.</p>
 

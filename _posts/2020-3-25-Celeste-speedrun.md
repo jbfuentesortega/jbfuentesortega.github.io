@@ -3,7 +3,7 @@ layout: post
 title: 'Celeste: Farewell y aprender de los speedrunners'
 date: 2020-03-25
 tags:
-    juegos
+    videojuego
 ---
 <p style='text-align: justify;'>Hace poco ha salido <em>Celeste: Farewell</em>, un DLC a Celeste que añade un nuevo mundo al final del juego, después del volcán, pensado para la gente que ya se ha pasado todo el juego. Tras unos cuantos niveles en los que se juega con una nueva mecánica, un paracaídas al que nos podemos agarrar para caer más despacio, se presenta la verdadera mecánica de la que va este mundo, el <em>wavedashing</em>.</p>
 
