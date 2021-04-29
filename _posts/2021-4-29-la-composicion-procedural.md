@@ -16,11 +16,11 @@ tags:
 
 ```cpp
 template <BidirectionalIterator It,
-		  UnaryPredicate Pred>
+          UnaryPredicate Pred>
 auto gather(It first, It last, It point, Pred p) -> pair<It, It>
 {
-	return { stable_partition(first, point, not(p)),
-			 stable_partition(point, last, p) };
+    return { stable_partition(first, point, not(p)),
+             stable_partition(point, last, p) };
 }
 ```
 
@@ -39,9 +39,9 @@ auto gather(It first, It last, It point, Pred p) -> pair<It, It>
 ```cpp
 auto stl_solution(const auto& v)
 {
-	int top[2] = {};
-	partial_sort_copy(begin(v), end(v), begin(top), end(top), greater());
-	return inner_product(begin(top), end(top), begin(top), 0);
+    int top[2] = {};
+    partial_sort_copy(begin(v), end(v), begin(top), end(top), greater());
+    return inner_product(begin(top), end(top), begin(top), 0);
 }
 ```
 
@@ -59,10 +59,10 @@ auto stl_solution(const auto& v)
 // no de forma intencionada. Su objetivo es ser un
 // ejemplo de una idea, no ser código de producción.
 {
-	auto data = request_data_from_database();
-	auto transformed_data = program_logic(data);
-	auto database_response = send_to_database(transformed_data);
-	return database_response.is_ok();
+    auto data = request_data_from_database();
+    auto transformed_data = program_logic(data);
+    auto database_response = send_to_database(transformed_data);
+    return database_response.is_ok();
 }
 ```
 
@@ -70,16 +70,16 @@ auto stl_solution(const auto& v)
 
 ```cpp
 {
-	future<Data> data = request_from_database();
-	return data.then([](Data data)
-	{
-		auto transformed_data = program_logic(data);
-		future<Response> database_response = send_to_database(transformed_data);
-		return database_response.then([](Response response)
-		{
-			return response.is_ok();
-		});
-	});
+    future<Data> data = request_from_database();
+    return data.then([](Data data)
+    {
+        auto transformed_data = program_logic(data);
+        future<Response> database_response = send_to_database(transformed_data);
+        return database_response.then([](Response response)
+        {
+            return response.is_ok();
+        });
+    });
 }
 ```
 
@@ -87,10 +87,10 @@ auto stl_solution(const auto& v)
 
 ```cpp
 {
-	auto data = co_await request_from_database();
-	auto transformed_data = program_logic(data);
-	auto database_response = co_await send_to_database(transformed_data);
-	return database_response.is_ok();
+    auto data = co_await request_from_database();
+    auto transformed_data = program_logic(data);
+    auto database_response = co_await send_to_database(transformed_data);
+    return database_response.is_ok();
 }
 ```
 
@@ -106,23 +106,23 @@ auto stl_solution(const auto& v)
 // Sin corrutinas
 optional<Level> load_level(string path)
 {
-	optional<string> file_content = load_all_file(path);
-	if (!file_content)
-		return nullopt;
+    optional<string> file_content = load_all_file(path);
+    if (!file_content)
+        return nullopt;
 		
-	optional<json::value> level_json = json::parse(*file_content);
-	if (!level_json)
-		return nullopt;
+    optional<json::value> level_json = json::parse(*file_content);
+    if (!level_json)
+        return nullopt;
 	
-	return build_level(*level_json);
+    return build_level(*level_json);
 }
 
 // Con corrutinas
 optional<Level> load_level(string path)
 {
-	string file_content = co_await load_all_file(path);
-	json::value level_json = co_await json::parse(file_content);
-	return build_level(level_json);
+    string file_content = co_await load_all_file(path);
+    json::value level_json = co_await json::parse(file_content);
+    return build_level(level_json);
 }
 ```
 
