@@ -5,6 +5,7 @@ date: 2021-4-29
 tags:
   informática
   programación
+  c++
 ---
 **Introducción**
 
@@ -98,7 +99,7 @@ auto stl_solution(const auto& v)
 
 **Corrutinas y tipos de error monádicos**
 
-<p style='text-align: justify;'>La programación procedural no tiene una forma canónica de reportar errores. O más bien tiene tres, cada uno con sus pros y sus contras. Hay subrutinas que cogen por referencia la memoria a la que escribir el resultado que van a generar y devuelven un código de error indicando si la subrutina ha finalizado con éxito o si algo ha fallado. Esta técnica implica intercalar la lógica del programa con la gestión de los errores y termina introduciendo un exceso de condicionales que dificultan la legibilidad. Además, tiene el problema de que los errores pueden ignorarse, lo cual suele ser poco deseable y conducir a errores. Las excepciones, al contrario, introducen saltos implícitos en el control del programa que hace difícil razonar sobre ellas, y suelen ser más ineficientes ya que por lo general dependen de memoria dinámica. Por último, los tipos de error monádicos, como <code>optional&lt;T&gt;</code> o expected&lt;T, E&gt;, suelen tener interfaces con las que es incómodo trabajar, ya que la composición de mónadas no se lleva del todo bien con el estilo procedural.</p>
+<p style='text-align: justify;'>La programación procedural no tiene una forma canónica de reportar errores. O más bien tiene tres, cada uno con sus pros y sus contras. Hay subrutinas que cogen por referencia la memoria a la que escribir el resultado que van a generar y devuelven un código de error indicando si la subrutina ha finalizado con éxito o si algo ha fallado. Esta técnica implica intercalar la lógica del programa con la gestión de los errores y termina introduciendo un exceso de condicionales que dificultan la legibilidad. Además, tiene el problema de que los errores pueden ignorarse, lo cual suele ser poco deseable y conducir a errores. Las excepciones, al contrario, introducen saltos implícitos en el control del programa que hace difícil razonar sobre ellas, y suelen ser más ineficientes ya que por lo general dependen de memoria dinámica. Por último, los tipos de error monádicos, como <code>optional&lt;T&gt;</code> o <code>expected&lt;T, E&gt;</code>, suelen tener interfaces con las que es incómodo trabajar, ya que la composición de mónadas no se lleva del todo bien con el estilo procedural.</p>
 
 <p style='text-align: justify;'>Las corrutinas de C++20 son tan flexibles que con un poco de imaginación permiten operar sobre los tipos de error monádicos con la sintaxis de corrutinas. La principal ventaja de esto es que se puede definir que <code>co_await</code> signifique extraer el resultado si hay alguno o terminar la subrutina y devolver el error si no. Esto permite escribir código en C++ que opera sobre tipos de error monádicos que es muy similar en forma a la notación "do" de Haskell.</p>
 
