@@ -25,6 +25,8 @@ auto gather(It first, It last, It point, Pred p) -> pair<It, It>
 }
 ```
 
+![Gather](https://raw.githubusercontent.com/asielorz/blog/master/images/gather.png)
+
 ## Tesis
 
 <p style='text-align: justify;'>Muchos de los lenguajes de programación en uso hoy en día son procedurales. La influencia de C en el diseño de gran parte de los lenguajes de programación posteriores es innegable. Aunque estos lenguajes tratan ahora de incorporar elementos provenientes de la programación funcional, su uso es muchas veces incómodo y problemático. Si el objetivo del estilo o paradigma elegido es maximizar la capacidad de expresión, los aros por los que tiene que pasar un lenguaje principalmente procedural u orientado a objetos para escribir código en un estilo funcional son muchas veces suficientes para superar a las ventajas. Y esto se debe principalmente a que la composición de funciones requiere de grandes cantidades de azúcar sintáctico para poder ser aceptablemente ergonómica. De hecho, gran parte de Haskell consiste en azúcar sintáctico para facilitar la composición, mediante estructuras sintácticas que no existen en otros lenguajes, como las funciones de Curry o la notación "do".</p>
