@@ -14,9 +14,9 @@ tags:
 ```cpp
 {
     // Ejemplo en el que se mueve un xvalue
-    std::vector<int> foo = {1, 2, 3, 4, 5};
-    f(std::move(foo));
-    foo.push_back(5); // foo es usado después de haberse movido
+    std::vector<int> v = {1, 2, 3, 4, 5};
+    consume(std::move(v));
+    v.push_back(5); // v es usado después de haberse movido
 }
 ```
 
