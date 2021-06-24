@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'std::move, ¡qué movida!'
-date: 2021-5-6
+date: 2021-6-7
 tags:
   informática
   programación
