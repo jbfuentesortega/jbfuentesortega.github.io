@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sekiro: la estética como feedback
+title: 'Sekiro: la estética como feedback'
 date: 2021-6-24
 tags:
   videojuego
