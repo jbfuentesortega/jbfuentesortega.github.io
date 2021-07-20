@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '¿El "iterator" el mejor nombre para el concepto que representa en C++?'
+title: '¿Es "iterator" el mejor nombre para el concepto que representa en C++?'
 date: 2021-6-24
 tags:
   informática
