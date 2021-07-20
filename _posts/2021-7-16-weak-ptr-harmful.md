@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'weak_ptr considered harmful'
-date: 2021-6-24
+date: 2021-7-16
 tags:
   informática
   programación
