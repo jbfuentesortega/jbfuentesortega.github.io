@@ -87,12 +87,12 @@ nombre(parámetros)
 <p style='text-align: justify;'>que permitiera personalizar bajo qué condiciones se ejecuta ese código, y qué sucede antes y después. Este mecanismo sería estrictamente mejor que <code>defer</code>, ya que le daría estructura, que es lo que le falta, además de ser un gran complemento para los destructores, haciendo bien precisamente las cosas que a los destructores se les dan mal. Un punto de partida interesante podría ser el diseño de <code>for_expansion</code> y macros que cogen código como parámetro en Jai⁹. De nuevo habría que generalizarlo para permitir su uso en casos arbitrarios en lugar de solamente en el bucle for, pero es un comienzo muy interesante. Otra referencia a explorar, sobre todo en cuanto a sintaxis, es la sintaxis de Zig para <code>if</code> y <code>for</code> cuando los parámetros son un valor opcional y una secuencia respectivamente.</p>
 
 ```zig
-if (optional_foo) |foo| {
-    doSomethingWithFoo(foo);
+if (optional) |value| {
+    doSomethingWith(value);
 }
 
-if (range) |element| {
-    doSomethingWithFoo(element);
+for (range) |element| {
+    doSomethingWith(element);
 }
 ```
 
