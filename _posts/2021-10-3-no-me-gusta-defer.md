@@ -96,7 +96,7 @@ nombre(parámetros)
 
 4- Entrevista a JeanHeyd Meneide in CppCast <a href="https://cppcast.com/jeanheyd-defer/">https://cppcast.com/jeanheyd-defer/</a>
 
-5- Declarative control flow, Andrei Alexandrescu, CppCon 2015 <a href="https://www.youtube.com/watch?v=WjTrfoiB0MQ&pp=ugMICgJlcxABGAE%3D">https://www.youtube.com/watch?v=WjTrfoiB0MQ&pp=ugMICgJlcxABGAE%3D</a>
+5- Declarative control flow, Andrei Alexandrescu, CppCon 2015 <a href="https://www.youtube.com/watch?v=WjTrfoiB0MQ">https://www.youtube.com/watch?v=WjTrfoiB0MQ</a>
 
 6- Lock statement en C# <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/lock-statement">https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/lock-statement</a>
 
