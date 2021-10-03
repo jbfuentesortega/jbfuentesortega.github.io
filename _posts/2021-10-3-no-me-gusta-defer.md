@@ -12,9 +12,9 @@ tags:
 
 ```c
 {
-    defer puts(“Esto se ejecuta al final.”);
-    puts(“Esto se ejecuta primero.”);
-    puts(“Esto se ejecuta segundo.”);
+    defer puts("Esto se ejecuta al final.");
+    puts("Esto se ejecuta primero.");
+    puts("Esto se ejecuta segundo.");
 }
 ```
 
@@ -30,7 +30,7 @@ Esto se ejecuta al final.
 
 ```c
 {
-    FILE * file = fopen(filename, “rb”);
+    FILE * file = fopen(filename, "rb");
     defer if (file != NULL) fclose(file);
 	
     // Código que procesa el archivo
@@ -49,7 +49,7 @@ Esto se ejecuta al final.
 {
      auto guard = std::scope_guard(my_mutex);
 	 
-    // Código sincronizado por “my_mutex”
+    // Código sincronizado por "my_mutex"
 }
 ```
 
@@ -60,7 +60,7 @@ Esto se ejecuta al final.
     mtx_lock(&my_mutex);
     defer mtx_unlock(&my_mutex);
 	
-    // Código sincronizado por “my_mutex”
+    // Código sincronizado por "my_mutex"
 }
 ```
 
@@ -69,7 +69,7 @@ Esto se ejecuta al final.
 ```c#
 lock (my_mutex)
 {
-    // Código sincronizado por “my_mutex”
+    // Código sincronizado por "my_mutex"
 }
 ```
 
