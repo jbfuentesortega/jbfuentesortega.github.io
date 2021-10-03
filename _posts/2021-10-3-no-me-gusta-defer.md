@@ -89,11 +89,19 @@ nombre(parámetros)
 # Referencias:
 
 1- Defer en Go <a href="https://golangbot.com/defer/">https://golangbot.com/defer/</a>
+
 2- Propuesta para introducir defer en C <a href="http://robertseacord.com/wp/wp-content/uploads/2020/09/Defer-Mechanism-for-C-1.pdf">http://robertseacord.com/wp/wp-content/uploads/2020/09/Defer-Mechanism-for-C-1.pdf</a>
+
 3- Defer en Zig <a href="https://ziglang.org/learn/overview/#manual-memory-management">https://ziglang.org/learn/overview/#manual-memory-management</a>
+
 4- Entrevista a JeanHeyd Meneide in CppCast <a href="https://cppcast.com/jeanheyd-defer/">https://cppcast.com/jeanheyd-defer/</a>
+
 5- Declarative control flow, Andrei Alexandrescu, CppCon 2015 <a href="https://www.youtube.com/watch?v=WjTrfoiB0MQ&pp=ugMICgJlcxABGAE%3D">https://www.youtube.com/watch?v=WjTrfoiB0MQ&pp=ugMICgJlcxABGAE%3D</a>
+
 6- Lock statement en C# <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/lock-statement">https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/lock-statement</a>
+
 7- Core Guidelines de C++ sobre no dar nombre a lock_guard  <a href="https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rconc-name">https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rconc-name</a>
+
 8- Implementación de defer en C con el preprocesador <a href="https://godbolt.org/z/7P151zvjr">https://godbolt.org/z/7P151zvjr</a>
+
 9- Explicación de macros, #code y for_expansion en Jai <a href="https://www.youtube.com/watch?v=QX46eLqq1ps">https://www.youtube.com/watch?v=QX46eLqq1ps</a>
