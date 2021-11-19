@@ -1,6 +1,6 @@
 ---
 layout: post
-title: `protected` es mentira
+title: protected es mentira
 date: 2021-11-19
 tags:
   informática
