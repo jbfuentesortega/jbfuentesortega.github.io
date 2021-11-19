@@ -16,11 +16,11 @@ tags:
 template <typename T, typename C>
 auto underlying_container(std::stack<T, C> & stack) -> C &
 {
-	struct Oops : public std::stack<T, C>
-	{
-		auto get_underlying_container() -> C & { return c; }
-	};
-	return static_cast<Oops &>(stack).get_underlying_container();
+    struct Oops : public std::stack<T, C>
+    {
+        auto get_underlying_container() -> C & { return c; }
+    };
+    return static_cast<Oops &>(stack).get_underlying_container();
 }
 ```
 
@@ -29,11 +29,8 @@ auto underlying_container(std::stack<T, C> & stack) -> C &
 <p style='text-align: justify;'>Además, es importante tener en cuenta que esto no es una particularidad de <code>std::stack</code>. Puede usarse esta técnica para acceder a cualquier variable protegida de cualquier clase de forma segura y no intrusiva. Una vez llegado a este punto, cualquier variable protegida es en realidad pública en la práctica, sólo que con un poco de tedio extra. Una vez que tenemos <code>underlying_container</code>, podemos hacer algo como:</p>
 
 ```cpp
-{
-	std::stack<int, std::vector<int>> stack;
-	underlying_container(stack).reserve(64);
-	//…
-}
+std::stack<int, std::vector<int>> stack;
+underlying_container(stack).reserve(64);
 ```
 
 ## De todas formas, ¿qué significa `protected`?
