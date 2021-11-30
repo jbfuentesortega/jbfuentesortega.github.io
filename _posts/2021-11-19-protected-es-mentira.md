@@ -6,7 +6,7 @@ tags:
   informática
   programación
 ---
-<blockquote>"I work with very good programmers and I see a ton of happens-to-work and very little actually correct."<br><align=left>-Titus Winters</align></blockquote>
+<blockquote>"I work with very good programmers and I see a ton of happens-to-work and very little actually correct."<br>-Titus Winters</blockquote>
 
 <p style='text-align: justify;'>Es común, en lenguajes de programación que permiten programar en un estilo orientado a objetos, que se pueda restringir el acceso a los miembros de una clase. Los especificadores de acceso más comunes suelen ser <code>public</code>, que permite que el miembro sea accedido desde cualquier lugar; <code>private</code>, que sólo permite que el miembro sea accedido por funciones miembro de la clase, y <code>protected</code>, que permite que el miembro sea accedido por las funciones de esta clase y aquellas que deriven de esta clase, transitivamente. Estos tres especificadores de acceso suelen ser los más comunes y los encontramos en lenguajes como C++, Java o C#. Mientras que <code>public</code> y <code>private</code> tienen significados sólidos, bien definidos y correctamente ejecutados por el lenguaje de programación, el significado de <code>protected</code> es más pobre, hasta el punto de que podríamos considerarlo equivalente a <code>public</code>.</p>
 
