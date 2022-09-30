@@ -41,5 +41,5 @@ tags:
 
 ## Referencias
 
-- Estudio State of DevOps 2021: https://services.google.com/fh/files/misc/state-of-devops-2021.pdf
-- Charla sobre los cuatro tipos de documentación: https://www.youtube.com/watch?v=t4vKPhjcMZg
+- Estudio State of DevOps 2021: <a href="https://services.google.com/fh/files/misc/state-of-devops-2021.pdf">https://services.google.com/fh/files/misc/state-of-devops-2021.pdf</a>
+- Charla sobre los cuatro tipos de documentación: <a href="https://www.youtube.com/watch?v=t4vKPhjcMZg">https://www.youtube.com/watch?v=t4vKPhjcMZg</a>
