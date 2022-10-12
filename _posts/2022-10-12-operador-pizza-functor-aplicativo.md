@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'El operador pizza |> y el functor aplicativo'
-date: 2022-10-9
+title: 'El operador pizza y el functor aplicativo'
+date: 2022-10-12
 tags:
   informática
   programación
