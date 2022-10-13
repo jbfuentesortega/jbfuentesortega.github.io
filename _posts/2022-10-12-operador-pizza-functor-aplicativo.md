@@ -31,7 +31,13 @@ userDecoder =
 
 <p style='text-align: justify;'>La magia sucede en las funciones <code>required</code>, <code>optional</code> y <code>hardcoded</code>. Lo que está haciendo el operador |&gt; es invocar una de estas funciones con el constructor dentro de un <code>Decoder</code> y los parámetros a su derecha. Estas tres funciones, <code>required</code>, <code>optional</code> y <code>hardcoded</code>, lo que hacen en esencia es coger un <code>Decoder</code> de función y unos parámetros con los que construir otro, y devolver un nuevo <code>Decoder</code> con el resultado de haber aplicado a la función el contenido del parámetro a la derecha.</p>
 
-<p style='text-align: justify;'>Tal vez el ejemplo se entienda mejor si lo reescribimos en términos de <code>custom</code>, que es otra función que también ofrece la biblioteca.</p>
+<p style='text-align: justify;'>Tal vez el ejemplo se entienda mejor si lo reescribimos en términos de <code>custom</code>, que es otra función que también ofrece la biblioteca. El tipo de <code>custom</code> es este:</p>
+
+```Elm
+required : Decoder a -> Decoder (a -> b) -> Decoder b
+```
+
+¿Suena conocido, verdad? Y la declaración de <code>userDecoder</code> del ejemplo anterior escrita únicamente en términos de <code>custom</code> quedaría algo así.
 
 ```Elm
 userDecoder : Decoder User
@@ -43,7 +49,7 @@ userDecoder =
     |> custom (Decode.succeed 1.0)
 ```
 
-<p style='text-align: justify;'><code>|&gt; custom</code> es lo mismo que lo que Haskell llama <code>&lt;*&gt;</code>. En cada caso estamos cogiendo un <code>Decoder (a -> b)</code> y un <code>Decoder a</code> y devolviendo un <code>Decoder b</code>. Al final de la expresión se ha llamado a aplicado cuatro parámetros a un <code>Decoder</code> de una función que coge cuatro parámetros, lo que nos deja con un <code>Decoder</code> del resultado.</p>
+<p style='text-align: justify;'><code>|&gt; custom</code> es lo mismo que lo que Haskell llama <code>&lt;*&gt;</code>. En cada caso estamos cogiendo un <code>Decoder (a -> b)</code> y un <code>Decoder a</code> y devolviendo un <code>Decoder b</code>. Al final de la expresión se ha aplicado cuatro parámetros a un <code>Decoder</code> de una función que coge cuatro parámetros (<code>Decode.succeed User</code>), lo que nos deja con un <code>Decoder</code> del resultado.</p>
 
 <p style='text-align: justify;'>Hasta ahora hemos aprendido que podemos emular el patrón de diseño del functor aplicativo sin tener que sacarnos un nuevo operador de la manga, simplemente con funciones normales y un poco de pizza. Esto es especialmente útil en Elm que, a diferencia de Haskell, no permite al programador crear nuevos operadores. Pero también es interesante más allá de eso. Vamos con lo realmente chulo.</p>
 
