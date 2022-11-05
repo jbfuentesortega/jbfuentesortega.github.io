@@ -50,3 +50,4 @@ tags:
 # Conclusiones
 
 <p style='text-align: justify;'>Al final, todo esto se resume en que el mejor antivirus es saber dónde haces clic. No es una cuestión de ser capaz de analizar un correo, una página web o un programa y saber si es de fiar o no, porque es muy difícil y en muchos casos imposible. Navegar por internet con un mínimo de seguridad es tan simple como mirar quién nos está mandando algo, y saber decidir si ese alguien es una autoridad suficiente para estar mandándonos eso y por lo tanto nos podemos fiar, o si por el contrario no lo es y posiblemente sea un fraude. Ante la duda, un fraude potencial es un fraude. Lo único totalmente seguro es fiarse solamente de aquello que fijo que es auténtico.</p>
+ 
