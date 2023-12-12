@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lección Final
+title: Última lección
 date: 2023-05-12
 ---
 <p style='text-align: justify;'><em>Enlazamos aquí la grabación de la última lección impartida, a modo de cierre despedida, en la Universidad Complutense de Madrid:
